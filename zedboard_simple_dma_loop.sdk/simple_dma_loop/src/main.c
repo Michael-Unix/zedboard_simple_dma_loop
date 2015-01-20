@@ -5,7 +5,7 @@
 
 #define DMA_DEV_ID XPAR_AXIDMA_0_DEVICE_ID
 
-#define MEM_BASE_ADDR		0x00100000
+#define MEM_BASE_ADDR 0x00100000
 
 #define TX_BUFFER_BASE (MEM_BASE_ADDR + 0x00100000)
 #define RX_BUFFER_BASE (MEM_BASE_ADDR + 0x00300000)
@@ -26,10 +26,10 @@ int main()
 
 	Status = XAxiDma_Simple(DMA_DEV_ID);
 	if (Status != XST_SUCCESS) {
-		xil_printf("XAxiDma_Simple: Failed\r\n");
+		xil_printf("AXI DMA Simple loop: Failed\r\n");
 		return XST_FAILURE;
 	}
-	xil_printf("XAxiDma_Simple: Passed\r\n");
+	xil_printf("AXI DMA Simple loop: Passed\r\n");
 	xil_printf("--- Exiting main() --- \r\n");
 
 	return XST_SUCCESS;
@@ -94,9 +94,6 @@ int XAxiDma_Simple(u16 DeviceId)
 		xil_printf("Start transfer failed: %d\r\n", Status);
 		return XST_FAILURE;
 	}
-
-
-
 
 	// wait DMA end
 	while ((XAxiDma_Busy(&AxiDma,XAXIDMA_DEVICE_TO_DMA)) ||
