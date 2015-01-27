@@ -26,11 +26,11 @@
         <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_auto_pc_1/ps_auto_pc_1.xci"/>
         <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_auto_pc_0/ps_auto_pc_0.xci"/>
         <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_xbar_0/ps_xbar_0.xci"/>
-        <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_rst_processing_system7_100M_0/ps_rst_processing_system7_100M_0.xci"/>
         <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_axi_mem_intercon_0/ps_axi_mem_intercon_0.xci"/>
         <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_processing_system7_axi_periph_0/ps_processing_system7_axi_periph_0.xci"/>
-        <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_processing_system7_0_0/ps_processing_system7_0_0.xci"/>
-        <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_axi_dma_0_0/ps_axi_dma_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_axi_dma_0/ps_axi_dma_0.xci"/>
+        <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_processing_system7_0/ps_processing_system7_0.xci"/>
+        <CompFileExtendedInfo CompFileName="ps.bd" FileRelPathName="ip/ps_rst_processing_system7_100M_0/ps_rst_processing_system7_100M_0.xci"/>
       </File>
       <File Path="$PSRCDIR/sources_1/new/dmaloop_top.vhd">
         <FileInfo>
