@@ -1,4 +1,5 @@
 .Xil/
+*.cache/
 
 *.jou
 *.log

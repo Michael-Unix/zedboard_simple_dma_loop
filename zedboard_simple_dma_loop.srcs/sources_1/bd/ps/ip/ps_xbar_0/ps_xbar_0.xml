@@ -24617,14 +24617,14 @@
 				<spirit:value spirit:format="bitString"
 						spirit:resolve="generated"
 						spirit:id="MODELPARAM_VALUE.C_M_AXI_WRITE_ISSUING"
-						spirit:bitStringLength="32">0x00000008</spirit:value>
+						spirit:bitStringLength="32">0x00000002</spirit:value>
 			</spirit:modelParameter>
 			<spirit:modelParameter spirit:dataType="std_logic_vector">
 				<spirit:name>C_M_AXI_READ_ISSUING</spirit:name>
 				<spirit:value spirit:format="bitString"
 						spirit:resolve="generated"
 						spirit:id="MODELPARAM_VALUE.C_M_AXI_READ_ISSUING"
-						spirit:bitStringLength="32">0x00000008</spirit:value>
+						spirit:bitStringLength="32">0x00000002</spirit:value>
 			</spirit:modelParameter>
 			<spirit:modelParameter spirit:dataType="integer">
 				<spirit:name>C_S_AXI_ARB_PRIORITY</spirit:name>
@@ -37150,7 +37150,7 @@
 					spirit:id="PARAM_VALUE.M00_WRITE_ISSUING"
 					spirit:order="581"
 					spirit:minimum="1"
-					spirit:maximum="32">8</spirit:value>
+					spirit:maximum="32">2</spirit:value>
 			<spirit:vendorExtensions>
 				<xilinx:parameterInfo>
 					<xilinx:enablement>
@@ -37438,7 +37438,7 @@
 					spirit:id="PARAM_VALUE.M00_READ_ISSUING"
 					spirit:order="597"
 					spirit:minimum="1"
-					spirit:maximum="32">8</spirit:value>
+					spirit:maximum="32">2</spirit:value>
 			<spirit:vendorExtensions>
 				<xilinx:parameterInfo>
 					<xilinx:enablement>

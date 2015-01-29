@@ -589,7 +589,7 @@
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.S13_READ_ACCEPTANCE">4</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.S14_READ_ACCEPTANCE">4</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.S15_READ_ACCEPTANCE">4</spirit:configurableElementValue>
-				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_WRITE_ISSUING">8</spirit:configurableElementValue>
+				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_WRITE_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_WRITE_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_WRITE_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M03_WRITE_ISSUING">2</spirit:configurableElementValue>
@@ -605,7 +605,7 @@
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M13_WRITE_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M14_WRITE_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M15_WRITE_ISSUING">2</spirit:configurableElementValue>
-				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_READ_ISSUING">8</spirit:configurableElementValue>
+				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M00_READ_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M01_READ_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M02_READ_ISSUING">2</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.M03_READ_ISSUING">2</spirit:configurableElementValue>
@@ -1238,8 +1238,8 @@
 				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_AXI_SINGLE_THREAD">0x0000000000000000</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_AXI_WRITE_ACCEPTANCE">0x0000000400000002</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_AXI_READ_ACCEPTANCE">0x0000000200000004</spirit:configurableElementValue>
-				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M_AXI_WRITE_ISSUING">0x00000008</spirit:configurableElementValue>
-				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M_AXI_READ_ISSUING">0x00000008</spirit:configurableElementValue>
+				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M_AXI_WRITE_ISSUING">0x00000002</spirit:configurableElementValue>
+				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M_AXI_READ_ISSUING">0x00000002</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_S_AXI_ARB_PRIORITY">0x0000000000000000</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M_AXI_SECURE">0x00000000</spirit:configurableElementValue>
 				<spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_CONNECTIVITY_MODE">1</spirit:configurableElementValue>
